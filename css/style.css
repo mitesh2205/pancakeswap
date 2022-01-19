@@ -1,0 +1,122 @@
+body{
+    background-color: #22282b;
+  }
+
+  #header nav{
+    padding: 15px 0px;
+    background-color: #22282b;
+  }
+  #header .navbar-light .navbar-nav .nav-link {
+    color: #22282b;
+    font-size: 20px;
+  }
+  #header {
+      border-bottom: 1px solid #22282b;
+      background-color: #22282b;
+      float: left;
+      width: 100%;
+  }
+  #header ul.navbar-nav {
+      position: absolute;
+      right: 0;
+  }
+  #header li.nav-item {
+      margin: 0px 10px;
+  }
+
+  #header .dropdown-menu.show {
+      border: none;
+  }
+
+  #header .social-icon {
+      float: right;
+  }
+  .left-item{
+      font-size: 22px;
+      font-weight: 600;
+      float: left;
+  }
+ .border div{
+    padding: 2px;
+  }
+ .border{
+    width: 90%;
+  }
+  .card-title{
+      padding-top: 12px;
+      font-size: 17px;
+  }
+  .btn-warning{
+      width: 66%;
+      background-color: #ffbd5a;
+      color: #141a28;
+      font: 22px;
+      font-style: Arial;
+  }
+.box{
+    height: 7px;
+    position: relative;
+    width: 100%;
+}
+.box1{
+    background: #fff;
+    height: 1px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    width: 100%;
+}
+.box-green{
+    background: #04da9a;
+    height: 7px;
+    left: 0;
+    position: absolute;
+    top: -3px;
+    width: 93px;
+}
+.treasury-distribution .card-title{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.styledrow{
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.styled_{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+  /*=============Responsive css==================*/
+  @media (max-width: 1500px){
+    .container{
+        max-width: 1200px  !important;
+    }
+  }
+  @media (max-width: 991px){
+  #header ul.navbar-nav {
+      position: static;
+      width: 100%;
+      border-top: 1px solid #22282b;
+      margin: 15px 0px 0px;
+  }
+  .container{
+    max-width: 900px  !important;
+}
+  }
+  @media (max-width: 720px){
+    .container{
+        max-width: 600px  !important;
+    }
+  }
+  @media (max-width: 520px){
+    .container{
+        max-width: 450px  !important;
+    }
+  }
+  @media (max-width: 411px){
+    .container{
+        max-width: 350px  !important;
+    }
+  }
